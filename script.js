@@ -25,5 +25,29 @@
 
 //const arr = confirm ('Ви тут?');
 
-let numberOfFilms = prompt("Сколько фильмов вы посмотрели?", "");
+const numberOfFilms = +prompt("Сколько фильмов вы посмотрели?", "");
 
+let   a = prompt("Один из последних просмотренных фильмов", ""),
+      ratingFilm1 = +prompt("На сколько оцените его?", ""),
+      b = prompt("Один из последних просмотренных фильмов", ""),
+      ratingFilm2 = +prompt("На сколько оцените его?", "");
+
+const personalMowieDB = {
+    count: numberOfFilms,
+    movies: {
+        a: ratingFilm1,
+        b: ratingFilm2,
+    },
+    actors: {
+
+    },
+    genres: [
+
+    ],
+    privat: false
+};
+
+
+
+    
+console.log(personalMowieDB);
