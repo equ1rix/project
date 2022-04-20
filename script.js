@@ -25,3 +25,5 @@
 
 //const arr = confirm ('Ви тут?');
 
+let numberOfFilms = prompt("Сколько фильмов вы посмотрели?", "");
+
