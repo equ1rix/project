@@ -23,4 +23,5 @@
 //console.log (2 + 2 * 2 == '6');
 
 
-const arr = prompt ('Ти тут?');
+//const arr = confirm ('Ви тут?');
+
