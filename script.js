@@ -35,8 +35,7 @@ let   a = prompt("Один из последних просмотренных ф
 const personalMowieDB = {
     count: numberOfFilms,
     movies: {
-        a: ratingFilm1,
-        b: ratingFilm2,
+       
     },
     actors: {
 
@@ -47,7 +46,36 @@ const personalMowieDB = {
     privat: false
 };
 
+personalMowieDB.movies[a] = ratingFilm1;
+personalMowieDB.movies[b] = ratingFilm2;
 
 
     
 console.log(personalMowieDB);
+
+
+console.log(NaN || 2 || undefined);
+console.log(NaN && 2 && undefined);
+console.log(1 && 2 && 3);
+console.log(!1 && 2 || !3);
+console.log(25 || null && !3);
+console.log(NaN || null || !3 || undefined || 5);
+console.log(NaN || null && !3 && undefined || 5);
+console.log(5 === 5 && 3 > 1 || 5);
+
+
+
+for (let i = 5; i <= 10; i++) {
+    console.log(i);
+};
+
+first: for (let j = 20; j >= 10; j--) {
+    if ( j === 13) break first;
+    console.log(j);
+};
+
+ second: for (let k = 2; k <= 10; k + 2) {
+    if (k === 12) break second;
+    console.log(k);
+};
+
